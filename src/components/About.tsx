@@ -27,13 +27,12 @@ export default function About() {
             {/* LISTA: Centrada en móvil, pero manteniendo los puntos (bullets) ordenados */}
             <ul className="list-disc list-inside md:list-outside space-y-2 text-gray-300 md:ml-6 inline-block text-left">
               <li>
-                <strong className="text-white">Formación Pedagógica:</strong> Para traducir la complejidad técnica a un lenguaje humano y claro, asegurando que mis clientes tengan el control total de sus herramientas.
-              </li>
-              <li>
                 <strong className="text-white">Ciberseguridad (Google):</strong> Cursando el Certificado Profesional mediante beca académica, para garantizar que el software que desarrollo cumpla con los estándares necesarios para proteger datos sensibles.
               </li>
-            </ul>
-            
+              <li>
+                <strong className="text-white">Formación Pedagógica:</strong> Para traducir la complejidad técnica a un lenguaje humano y claro, asegurando que mis clientes tengan el control total de sus herramientas.
+              </li>
+              </ul>
             <p>
               Elijo trabajar como consultora tecnológica freelance para ofrecer un servicio personalizado, directo y sin intermediarios, enfocando mi energía 100% en resolver los problemas reales de tu negocio.
             </p>
