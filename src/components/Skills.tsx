@@ -7,12 +7,18 @@ export default function Skills() {
     },
     {
       title: "Backend & Bases de Datos",
-      skills: ["Node.js", "Express.js", "SQLite", "APIs REST", "JWT (Autenticación)", "Arquitectura MVC"]
+      // Agregamos PHP 8 y MySQL a lo que ya tenías
+      skills: ["Node.js", "Express.js", "PHP 8", "MySQL", "SQLite", "APIs REST", "JWT", "Arquitectura MVC"]
     },
     {
-      title: "Herramientas & Deployment",
-      // Quitamos Postman y agregamos Render
-      skills: ["Git", "GitHub", "Vercel", "Render", "Arquitectura Serverless"]
+      title: "Ciberseguridad & Prácticas",
+      // ¡Esta nueva categoría te hará destacar muchísimo!
+      skills: ["Prevención SQLi / XSS", "Tokens CSRF", "Manejo de Sesiones", "Variables de Entorno (.env)", "Validación de Datos"]
+    },
+    {
+      title: "Herramientas & Entorno",
+      // Agregamos Linux, Terminal y WSL
+      skills: ["Git", "GitHub", "Linux (WSL/Ubuntu)", "Terminal / Bash", "Vercel", "Render", "Arquitectura Serverless"]
     }
   ];
 
@@ -28,8 +34,8 @@ export default function Skills() {
           <div className="h-[2px] bg-emerald-500 flex-grow max-w-[100px] opacity-50 hidden md:block"></div>
         </div>
 
-        {/* Grilla de Categorías */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        {/* Grilla de Categorías: Cambiada a md:grid-cols-2 lg:grid-cols-2 para formar un cuadrado 2x2 perfecto con las 4 tarjetas */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {skillCategories.map((category, index) => (
             <div 
               key={index} 

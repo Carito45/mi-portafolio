@@ -32,7 +32,7 @@ export default function Hero() {
             href="#contacto" 
             className="w-full sm:w-auto px-8 py-3 bg-transparent text-emerald-400 font-bold rounded-lg border border-emerald-500/50 hover:bg-emerald-500/10 transition-all duration-300 hover:-translate-y-1"
           >
-            Contactarme
+          Contactarme
           </a>
         </div>
       </div>
